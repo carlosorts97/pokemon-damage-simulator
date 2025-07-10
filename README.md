@@ -35,3 +35,21 @@ Extracts a unique list of moves from the modified database and queries the offic
 
 ### 03_damage_simulator.py
 Uses the processed data from pokemon_data_mod.csv and movimientos_pokemon_info.csv to calculate a simplified estimate of the damage a selected Pokémon can deal with its moves, applying a formula based on stats and type and STAB multipliers.
+
+## ⚔️ How to Use the Damage Simulator
+This notebook (03_damage_simulator.py) allows you to simulate the potential damage dealt by a selected Pokémon using its moves. The simulation is based on a simplified formula that considers:
+
+Base stats (Attack, Special Attack)
+
+Move characteristics (power, type, damage class)
+
+STAB (Same Type Attack Bonus)
+
+Type effectiveness multipliers (e.g., fire vs. grass = x2)
+
+### 🔍 Pokémon Selection
+In section 2.1 Pokémon Searcher, **the user is prompted to enter the name of a Pokémon from the dataset**. The script will then search for the corresponding entry and automatically select it for the damage simulation.
+
+If the Pokémon exists in the dataset, its stats and moves will be retrieved and used in the next step of the simulation. 
+
+This makes it easy to explore and compare different Pokémon in a flexible and user-friendly way.
