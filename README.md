@@ -23,21 +23,21 @@ The notebooks simulate damage output of Pokémon moves against other Pokémon us
 
 
 ## Project Structure
-### 01_preprocessing.py
+### /notebooks/01_preprocessing.py
 Modifies the structure of the original database (/data/pokemon_data.csv) by splitting composite columns into individual columns to facilitate analysis. **The result is a clean new file called /data/pokemon_data_mod.csv**.
 
 Original data base obtained from: **https://www.kaggle.com/datasets/tanishksharma9905/pokemon-data-csv/data**
 
 Author: **Tanishk Sharma**
 
-### 02_move_API_data_collection.py
+### /notebooks/02_move_API_data_collection.py
 Extracts a unique list of moves from the modified database and queries the official Pokémon API to obtain additional information (power, accuracy, type, damage class, etc.) for each move. **This information is saved in the file /data/movimientos_pokemon_info.csv.**
 
-### 03_damage_simulator.py
+### /notebooks/03_damage_simulator.py
 Uses the processed data from pokemon_data_mod.csv and movimientos_pokemon_info.csv to calculate a simplified estimate of the damage a selected Pokémon can deal with its moves, applying a formula based on stats and type and STAB multipliers.
 
 ## ⚔️ How to Use the Damage Simulator
-This notebook (03_damage_simulator.py) allows you to simulate the potential damage dealt by a selected Pokémon using its moves. The simulation is based on a simplified formula that considers:
+This notebook (/notebooks/03_damage_simulator.py) allows you to simulate the potential damage dealt by a selected Pokémon using its moves. The simulation is based on a simplified formula that considers:
 
 Base stats (Attack, Special Attack)
 
