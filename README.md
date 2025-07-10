@@ -8,6 +8,20 @@ Here, the work is simplified and presented as Jupyter Notebooks focused on the d
 
 The notebooks simulate damage output of Pokémon moves against other Pokémon using a simplified damage formula, considering stats, move characteristics, STAB, and type effectiveness. This allows understanding move effectiveness in a clear and generic way across many Pokémon.
 
+## Skills Highlighted
+**Python Programming**: Experienced in writing clean, modular, and efficient code for data processing and analysis.
+
+**Data Manipulation with Pandas**: Expertise in cleaning, transforming, and structuring complex datasets to prepare them for analysis.
+
+**API Data Integration**: Ability to consume external APIs (RESTful services) to enrich datasets with relevant external information.
+
+**Feature Engineering & Data Wrangling**: Extracted and transformed key features (types, moves, stats) from raw data to enable meaningful analysis.
+
+**Algorithm Implementation**: Developed a domain-specific simplified damage calculation model combining statistical and categorical data.
+
+**Reproducible Workflows with Jupyter Notebooks**: Documented data exploration, processing, and modeling steps for transparency and sharing.
+
+
 ## Project Structure
 ### 01_preprocessing.py
 Modifies the structure of the original database (pokemon_data.csv) by splitting composite columns into individual columns to facilitate analysis. **The result is a clean new file called pokemon_data_mod.csv**.
